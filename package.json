@@ -1,0 +1,11 @@
+{
+  "name": "clean-react",
+  "version": "1.0.0",
+  "description": "Developed application in udemy course about clean architeture with ReactJs",
+  "main": "index.js",
+  "author": "Kallebe Nunes <kallebenm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
