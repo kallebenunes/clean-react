@@ -6,7 +6,10 @@
   "author": "Kallebe Nunes <kallebenm@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
   "dependencies": {},
   "devDependencies": {
